@@ -6,9 +6,9 @@ on:
   push:
     branches:
       - master
-  pull_request:
-    branches:
-      - '**'  # Triggers on all branches
+  # pull_request:
+    # branches:
+      # - '**'  # Triggers on all branches
   # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
 
