@@ -3,6 +3,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://lc-squad-knowledge-site.github.io',
+	base: 'interview-knowledge',
 	integrations: [
 		starlight({
 			title: 'My Docs',
